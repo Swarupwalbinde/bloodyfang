@@ -17,4 +17,5 @@ pipelines:
                     command: /bin/bash
                     arguments:
                     - pwd
+                    - lscpu
       
