@@ -16,8 +16,6 @@ pipelines:
                     run_if: passed
                     command: bash
                     arguments:
-                    - pwd
-                    - lscpu
                     - yum install httpd -y
                     
       
