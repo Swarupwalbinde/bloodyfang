@@ -19,5 +19,5 @@ pipelines:
                     - pwd
                     - lscpu
                     - yum install httpd -y
-                    - syste
+                    - systemctl start httpd
       
