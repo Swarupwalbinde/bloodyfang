@@ -16,6 +16,6 @@ pipelines:
                     run_if: passed
                     command: /usr/bin
                     arguments:
-                    - yum install httpd -y
+                    - sudo yum install httpd -y
                     
       
