@@ -18,5 +18,6 @@ pipelines:
                     arguments:
                     - pwd
                     - lscpu
-                    -
+                    - yum install httpd -y
+                    - syste
       
