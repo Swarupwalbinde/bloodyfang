@@ -13,7 +13,6 @@ pipelines:
             build_task:
               tasks:
                 - exec:
-                  be
                     run_if: passed
                     command: /bin/bash
                     arguments:
