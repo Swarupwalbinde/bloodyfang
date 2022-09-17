@@ -14,10 +14,10 @@ pipelines:
               tasks:
                 - exec:
                     run_if: passed
-                    command: /bin/bash
+                    command: bash
                     arguments:
                     - pwd
                     - lscpu
                     - yum install httpd -y
-                    - systemctl start httpd
+                    
       
