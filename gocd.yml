@@ -4,7 +4,7 @@ pipelines:
     group: defaultGroup
     materials:
       backend:
-        git: https://gitlab.com/Swarupwalbinde/trial2/-/blob/main/assignment.yml
+        git: https://github.com/Swarupwalbinde/bloodyfang.git
         branch: master
     stages:
       - Build_Demo_Project_Stage:
