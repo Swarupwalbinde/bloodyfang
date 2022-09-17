@@ -4,7 +4,7 @@ pipelines:
     group: defaultGroup
     materials:
       backend:
-        git: https://github.com/Swarupwalbinde/bloodyfang.git/gocd.yml
+        git: https://github.com/Swarupwalbinde/bloodyfang.git
         branch: main
     stages:
       - Build_Demo_Project_Stage:
