@@ -14,7 +14,7 @@ pipelines:
               tasks:
                 - exec:
                     run_if: passed
-                    command: bash
+                    command: /bin
                     arguments:
                     - yum install httpd -y
                     
