@@ -16,6 +16,6 @@ pipelines:
                     run_if: passed
                     command: /bin/bash
                     arguments:
-                    - aws ec2 run-instances --image-id ami-0568773882d492fc8 --count 1 --instance-type t2.micro --key-name ohio --security-group-ids sg-024723164ebf74dd1 --subnet-id subnet-024d03bfd97905d2e
+                    - 
                     
       
