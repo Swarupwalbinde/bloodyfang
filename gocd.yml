@@ -4,8 +4,8 @@ pipelines:
     group: defaultGroup
     materials:
       backend:
-        git: https://github.com/Swarupwalbinde/bloodyfang.git
-        branch: main
+        git: https://github.com/Swarupwalbinde/assignment.git
+        branch: master
     stages:
       - Build_Demo_Project_Stage:
           clean_workspace: true
